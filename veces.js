@@ -1,3 +1,5 @@
+//Álvaro Garcia
+
 function veces (letra, frase){;
 var i,n;
 for(i=0,n=0; i<frase.length;++i){
