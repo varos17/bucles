@@ -1,6 +1,6 @@
 function veces (letra, frase){;
-var i=0,n=0;
-while ( i<frase.length){
+var i,n;
+for(i=0,n=0; i<frase.length;++i){
   if(letra === frase[i]){++n;};
   i++
 }
